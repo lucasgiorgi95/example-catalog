@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Catálogo Premium - Productos Exclusivos",
+  title: "E-yerba",
   description:
     "Descubre nuestra colección exclusiva de productos premium seleccionados especialmente para ti",
 };
