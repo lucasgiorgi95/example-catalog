@@ -26,14 +26,13 @@ const Header: React.FC<HeaderProps> = ({ onCartClick }) => {
       )}
 
       {/* Imagen superior */}
-      <div className="h-80 bg-gradient-to-br from-amber-100 via-orange-50 to-pink-100 relative overflow-hidden">
+      <div 
+        className="h-80 bg-cover bg-center relative overflow-hidden"
+        style={{
+          backgroundImage: "url('/images/header.png')"
+        }}
+      >
         <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent"></div>
-        {/* Simulando una imagen de fondo con patrones */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-white/30 rounded-full blur-xl"></div>
-          <div className="absolute top-20 right-20 w-24 h-24 bg-pink-200/40 rounded-full blur-lg"></div>
-          <div className="absolute bottom-10 left-1/3 w-40 h-40 bg-orange-200/30 rounded-full blur-2xl"></div>
-        </div>
       </div>
     </>
   );
